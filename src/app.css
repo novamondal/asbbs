@@ -3,10 +3,6 @@
 @tailwind utilities;
 
 @layer base {
-	* {
-		@apply transition-all duration-300 ease-in-out;
-		/* TODO: pick a font */
-	}
 	body {
 		@apply bg-zinc-800;
 	}
@@ -16,4 +12,27 @@
 	a:hover {
 		@apply opacity-75 underline brightness-75;
 	}
+	button:hover {
+		@apply opacity-75;
+	}
+	button:active {
+		@apply opacity-50 brightness-50;
+	}
+	a, button { 
+		@apply transition-all duration-200 ease-in-out;
+	}
 }
+
+.fadeIn {
+		animation: fadeIn 300ms ease-in-out;
+	}
+	
+@keyframes fadeIn {
+		from {
+			opacity: 0;
+			translate: 0 10%;
+		}
+		to {
+			opacity: 1;
+		}
+	}
