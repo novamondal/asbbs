@@ -7,8 +7,9 @@
 <nav
 	class="w-screen flex flex-row justify-between p-4 h-24 items-center relative"
 >
+	<!--TODO!!-->
 	<a href="/" class="w-fit">ASBBS LOGO</a>
-	<!-- TODO!! -->
+	<!--TODO!!-->
 	<div
 		class="hidden md:flex flex-row justify-end text-center gap-responsive fadeIn"
 	>
