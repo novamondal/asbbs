@@ -24,37 +24,39 @@
 	class="top-full w-screen bg-zinc-800 p-4 transition-all duration-300 ease-in-out md:hidden"
 	class:fadeOut={!open}
 >
-	<ul class="bg-background p-4 rounded-md">
-		<li>
-			<a href="/call-for-paper">Call for Paper</a>
-			<div class="ml-4 brightness-75">
-				<a href="/call-for-paper/national"> - National</a>
-				<a href="/call-for-paper/international"> - International</a>
-			</div>
-		</li>
-		<li>
-			<a href="/journals">Journals</a>
-			<div class="ml-4 brightness-75">
-				<a href="/journals/business-behavioral-science">
-					- Behavioral Science
-				</a>
-				<a href="/journals/accounting">- Accounting</a>
-				<a href="/journals/educational-leadership">
-					- Educational Leadership
-				</a>
-				<a href="/journal/ejournal">- e-Journal</a>
-			</div>
-		</li>
-		<li>
-			<a href="/fellows">Fellows</a>
-		</li>
-		<li>
-			<a href="/program">Program</a>
-		</li>
-		<li>
-			<a href="/proceedings">Proceedings</a>
-		</li>
-	</ul>
+	<nav class="contents">
+		<ul class="bg-background p-4 rounded-md">
+			<li>
+				<a href="/call-for-paper">Call for Paper</a>
+				<div class="ml-4 brightness-75">
+					<a href="/call-for-paper/national"> - National</a>
+					<a href="/call-for-paper/international"> - International</a>
+				</div>
+			</li>
+			<li>
+				<a href="/journals">Journals</a>
+				<div class="ml-4 brightness-75">
+					<a href="/journals/business-behavioral-science">
+						- Behavioral Science
+					</a>
+					<a href="/journals/accounting">- Accounting</a>
+					<a href="/journals/educational-leadership">
+						- Educational Leadership
+					</a>
+					<a href="/journal/ejournal">- e-Journal</a>
+				</div>
+			</li>
+			<li>
+				<a href="/fellows">Fellows</a>
+			</li>
+			<li>
+				<a href="/program">Program</a>
+			</li>
+			<li>
+				<a href="/proceedings">Proceedings</a>
+			</li>
+		</ul>
+	</nav>
 </dialog>
 
 <style>

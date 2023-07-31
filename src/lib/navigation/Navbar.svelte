@@ -4,13 +4,13 @@
 	import MobileNav from "./MobileNav.svelte";
 </script>
 
-<nav
+<header
 	class="w-screen flex flex-row justify-between p-4 h-24 items-center relative"
 >
 	<!--TODO!!-->
 	<a href="/" class="w-fit">ASBBS LOGO</a>
 	<!--TODO!!-->
-	<div
+	<nav
 		class="hidden md:flex flex-row justify-end text-center gap-responsive animate-fadeInUp-300"
 	>
 		<HoverMenu>
@@ -46,9 +46,9 @@
 		<NavLink href="/fellows">Fellows</NavLink>
 		<NavLink href="/program">Program</NavLink>
 		<NavLink href="/proceedings">Proceedings</NavLink>
-	</div>
+	</nav>
 	<MobileNav />
-</nav>
+</header>
 
 <style>
 	.gap-responsive {
