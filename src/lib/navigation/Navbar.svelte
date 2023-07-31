@@ -5,7 +5,7 @@
 </script>
 
 <header
-	class="w-screen flex flex-row justify-between p-4 h-24 items-center relative"
+	class="w-screen flex flex-row justify-between p-4 h-header items-center relative"
 >
 	<!--TODO!!-->
 	<a href="/" class="w-fit">ASBBS LOGO</a>

@@ -1,8 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@tailwind variants;
 
 @layer base {
+	:root {
+		--header-height: 6rem;
+		--footer-height: 20rem;
+	}
+
 	body {
 		@apply bg-background;
 	}
@@ -15,10 +21,28 @@
 	button:hover {
 		@apply opacity-75;
 	}
+
 	button:active {
 		@apply opacity-50 brightness-50;
 	}
-	a, button { 
+	a,
+	button {
 		@apply transition-all duration-200 ease-in-out;
+	}
+
+	main {
+		min-height: calc(
+			100vh - var(--header-height) - var(--footer-height)
+		); /* fallback for browsers that don't support dvh */
+		min-height: calc(100dvh - var(--header-height) - var(--footer-height));
+	}
+}
+
+@layer components {
+	.h-header {
+		height: var(--header-height);
+	}
+	.h-footer {
+		height: var(--footer-height);
 	}
 }

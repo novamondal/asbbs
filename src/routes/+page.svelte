@@ -25,7 +25,7 @@
 	<p>
 		In addition to publishing the refereed Proceedings of the Conference,
 		ASBBS publishes the following refereed journals which are indexed in
-		Cabell’s Directory, Proquest and other indices:
+		Cabell's Directory, Proquest and other indices:
 	</p>
 	<ul>
 		<li>Journal of Business and Behavioral Sciences</li>
