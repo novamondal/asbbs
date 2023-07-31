@@ -24,6 +24,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"boxicons": "^2.1.4",
 		"firebase": "^10.1.0",
 		"marked": "^5.1.1"
 	}
