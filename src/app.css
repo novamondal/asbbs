@@ -4,10 +4,10 @@
 
 @layer base {
 	body {
-		@apply bg-zinc-800;
+		@apply bg-background;
 	}
 	body * {
-		@apply text-zinc-100;
+		@apply text-text;
 	}
 	a:hover {
 		@apply opacity-75 underline brightness-75;
@@ -22,17 +22,3 @@
 		@apply transition-all duration-200 ease-in-out;
 	}
 }
-
-.fadeIn {
-		animation: fadeIn 300ms ease-in-out;
-	}
-	
-@keyframes fadeIn {
-		from {
-			opacity: 0;
-			translate: 0 10%;
-		}
-		to {
-			opacity: 1;
-		}
-	}

@@ -13,7 +13,7 @@
 
 <button
 	on:click={dialog?.open ? close : show}
-	class="bg-rose-400 p-4 rounded-md flex flex-col ham gap-1.5 text-white w-min md:hidden fadeIn"
+	class="bg-accent p-4 rounded-md flex flex-col ham gap-1.5 text-white w-min md:hidden animate-fadeInUp-300"
 	class:cross={open}
 >
 	<div class="bg-current text-inherit" />
@@ -23,9 +23,8 @@
 	bind:this={dialog}
 	class="top-full w-screen bg-zinc-800 p-4 transition-all duration-300 ease-in-out md:hidden"
 	class:fadeOut={!open}
-	class:fadeIn={open}
 >
-	<ul class="bg-zinc-700 p-4 rounded-md">
+	<ul class="bg-background p-4 rounded-md">
 		<li>
 			<a href="/call-for-paper">Call for Paper</a>
 			<div class="ml-4 brightness-75">

@@ -11,10 +11,10 @@
 	<a href="/" class="w-fit">ASBBS LOGO</a>
 	<!--TODO!!-->
 	<div
-		class="hidden md:flex flex-row justify-end text-center gap-responsive fadeIn"
+		class="hidden md:flex flex-row justify-end text-center gap-responsive animate-fadeInUp-300"
 	>
 		<HoverMenu>
-			<NavLink href="/call-for-paper" accent slot="trigger">
+			<NavLink href="/call-for-paper" variant="ACCENT" slot="trigger">
 				Call for Paper ⌄
 			</NavLink>
 			<li>
